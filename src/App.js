@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import AnalyticsPage from './AnalyticsPage.jsx';
 
+// The main App function now only renders the AnalyticsPage component.
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // You can optionally wrap it in a Fragment if needed, but returning the component is fine.
+    <AnalyticsPage />
   );
 }
 
+// Export the main App component
 export default App;
