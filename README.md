@@ -80,8 +80,3 @@ yarn add tailwindcss framer-motion recharts lucide-react
 Insert the core component into your main application file and run your local development server.
 
 -----
-
-> **Note on Collaboration:** This specific UI/UX and codebase structure were developed in collaboration with a large language model (LLM) to meet stringent design and technical requirements for the Storyteller Ink assignment.
-
-```
-```
