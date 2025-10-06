@@ -59,7 +59,6 @@ To quickly clone the repository and start developing, use the command block belo
 
 ```bash
 git clone [https://github.com/ChiragPatil006/StoryTeller.git](https://github.com/ChiragPatil006/StoryTeller.git)
-````
 
 ### 2. Install Dependencies
 
