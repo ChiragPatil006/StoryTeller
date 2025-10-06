@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+StoryTeller: AI-Powered Narrative Flow Analytics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Project Overview
 
-## Available Scripts
+The StoryTeller application is a sophisticated, single-page web tool designed for professional screenwriters, novelists, and story analysts to visualize and optimize the emotional structure of their narrative.
 
-In the project directory, you can run:
+Built as an analytical platform to demonstrate fitment for a storytelling analytics role, this project transforms a linear sequence of scenes into an interactive, data-driven experience. It provides writers with an objective view of their story’s pacing and emotional impact.
 
-### `npm start`
+🔗 Live Demo
+This application is currently hosted and fully functional. You can explore the interactive features and experience the real-time analysis here:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Live Application Link] [https://story-teller-analytics.netlify.app]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✨ Key Features
+This application focuses on three core, working functionalities to deliver a seamless analytical workflow:
 
-### `npm test`
+📊 Emotional Curve Visualization (EAI):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Uses Recharts to generate a live, dynamic line graph mapping the Emotional Appeal Index (EAI) for every scene.
 
-### `npm run build`
+Includes a Curve Smoothing Filter (Moving Average) to analyze overall story flow and calculate a quantitative Pacing Score to identify erratic emotional shifts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🖱️ Interactive Scene Reordering (Drag & Drop):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A robust and intuitive Drag-and-Drop interface allows users to instantly resequence scenes (story events).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The EAI graph dynamically updates in real-time as the scenes are reordered, enabling rapid experimentation and "what-if" analysis.
 
-### `npm run eject`
+📄 Structured PDF Reporting:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+An integrated Export to PDF feature generates a clean, structured, and print-friendly report.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This ensures the current scene order, live graph visualization, and key metrics are perfectly preserved and easily shareable for pitching or feedback sessions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🛠️ Tech Stack
+This project leverages cutting-edge front-end technologies to deliver a fast, modern, and highly engaging user experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Front-End Framework: React.js (Implemented as a single component, compatible with Next.js).
 
-## Learn More
+Styling: Tailwind CSS for utility-first, dark-themed, and responsive design.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Animation: Framer Motion for smooth, eye-catching transitions and the dynamic 3D-style Hero Image.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Data Visualization: Recharts for generating beautiful, responsive data graphs.
 
-### Code Splitting
+Core Languages: JavaScript/JSX, HTML, CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+💻 Installation and Setup
+This project is delivered as a single, self-contained component that can be easily integrated into any modern React application.
 
-### Analyzing the Bundle Size
+Clone the repository:
+To quickly clone the repository and start developing, use the command block below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bash
 
-### Making a Progressive Web App
+git clone https://github.com/ChiragPatil006/StoryTeller.git
+Install dependencies:
+This project requires Tailwind CSS and Recharts. Assuming a standard Next.js or React setup:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Bash
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm install tailwindcss framer-motion recharts lucide-react
+# or
+yarn add tailwindcss framer-motion recharts lucide-react
+Run the application:
+Insert the core component into your main application file and run your local development server.
