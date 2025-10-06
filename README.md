@@ -58,7 +58,8 @@ This project is delivered as a single, self-contained component that can be easi
 To quickly clone the repository and start developing, use the command block below:
 
 ```bash
-git clone [https://github.com/ChiragPatil006/StoryTeller.git](https://github.com/ChiragPatil006/StoryTeller.git)
+git clone https://github.com/ChiragPatil006/StoryTeller.git
+```
 
 ### 2. Install Dependencies
 
