@@ -44,23 +44,35 @@ Animation: Framer Motion for smooth, eye-catching transitions and the dynamic 3D
 Data Visualization: Recharts for generating beautiful, responsive data graphs.
 
 Core Languages: JavaScript/JSX, HTML, CSS.
+You're absolutely right; that section of your README is displaying incorrectly because the Markdown code block syntax wasn't used properly, which caused the text to bleed together and the commands to lose their formatting.
 
-💻 Installation and Setup
+## 💻 Installation and Setup
+
 This project is delivered as a single, self-contained component that can be easily integrated into any modern React application.
 
-Clone the repository:
+### 1. Clone the Repository
+
 To quickly clone the repository and start developing, use the command block below:
 
-Bash
-
+```bash
 git clone https://github.com/ChiragPatil006/StoryTeller.git
-Install dependencies:
-This project requires Tailwind CSS and Recharts. Assuming a standard Next.js or React setup:
+```
 
-Bash
+### 2. Install Dependencies
 
+This project requires **Tailwind CSS**, **Framer Motion**, **Recharts**, and **Lucide-React**. Run one of the following commands:
+
+```bash
+# Using npm
 npm install tailwindcss framer-motion recharts lucide-react
-# or
+```
+
+```bash
+# Using yarn
 yarn add tailwindcss framer-motion recharts lucide-react
-Run the application:
+```
+
+### 3. Run the Application
+
 Insert the core component into your main application file and run your local development server.
+
